@@ -1,0 +1,397 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared style */
+.primary-btn {
+    color: #FFF;
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 54px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    /* padding: 20px 20px; */
+    cursor: pointer;
+
+}
+
+/* header styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav li a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+
+.nav-title {
+    color: #131313;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Banner stule */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.banner-description {
+    color: #727272;
+    text-align: center;
+    /* font-size: 16px; */
+    font-weight: 700;
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* main tyles */
+main {
+    max-width: 1440 px;
+    margin: 70px auto;
+
+}
+
+
+/* Teams style */
+.teams-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.teams-content {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.teams-content-title {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text-of-Our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.text-Features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.teams-content-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* features section style */
+.feature {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.feature-content {
+    max-width: 800px;
+    margin-left: 30px;
+}
+
+.feature-content-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-image img {
+    height: 90%;
+    margin-left: 90px;
+}
+
+.ten-years-badge {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    bottom: 100px;
+    /* right: 80px; */
+}
+
+.badge-line-one {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.badge-line-two {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/* Some facts section */
+.facts{
+    margin-left: 30px;
+}
+.facts-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* facts section card style */
+.facts-card-container .card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+
+}
+
+/* sopnsors styles */
+.sponsors-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsors-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sponsors-container {
+    text-align: center;
+}
+
+.sponsors-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.footer-title {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 25px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.footer-content {
+    background: #f2ddc3;
+    height: 70px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0px auto 30px auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* responsive media query */
+/* mobile device */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .teams-image-container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .teams-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teams-content {
+        text-align: center;
+    }
+
+    .facts-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts-title {
+        text-align: center;
+    }
+
+    .facts-description {
+        text-align: center;
+        width: 90%;
+        padding-left: 20px;
+
+    }
+
+    .sponsors-image-container {
+        flex-direction: column;
+
+    }
+
+    .feature {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-content-description {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .feature-image img {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .ten-years-badge {
+        position: static;
+        width: 300px;
+
+    }
+}
+
+/* tablet device */
+@media screen and(min-width:577px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .teams-image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+}
